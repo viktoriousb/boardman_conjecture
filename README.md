@@ -6,7 +6,7 @@ A Lean 4 formalization of a proof of Boardman's conjecture:
 
 The conjecture was originally stated in J. M. Boardman, *The eightfold way to BP-operations or* $E_*E$ *and all that*, CMS Conf. Proc. 2 (1982), p. 204.
 
-Based on [$`\mathbf{MU}^*\mathbf{MU}`$ and $`\mathbf{BP}^*\mathbf{BP}`$ do not admit coefficient preserving antiautomorphisms of rings](https://websites.umich.edu/~viktorb/preprints/antiautomorphisms_of_mu*mu_and_bp*bp.pdf). The final remark of that paper, on the motivic analogue, is not formalized.
+Based on [$`\mathbf{MU}`$\*$`\mathbf{MU}`$ and $`\mathbf{BP}`$\*$`\mathbf{BP}`$ do not admit coefficient preserving antiautomorphisms of rings](https://websites.umich.edu/~viktorb/preprints/antiautomorphisms_of_mu*mu_and_bp*bp.pdf). The final remark of that paper, on the motivic analogue, is not formalized.
 
 ## Building
 
