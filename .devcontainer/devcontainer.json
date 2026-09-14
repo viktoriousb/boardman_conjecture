@@ -1,0 +1,10 @@
+{
+  "name": "Lean 4 (boardman_conjecture)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "hostRequirements": { "cpus": 4, "memory": "8gb", "storage": "32gb" },
+  "postCreateCommand": "curl -sSf https://elan.lean-lang.org/elan-init.sh | sh -s -- -y --default-toolchain none && ~/.elan/bin/lake exe cache get && ~/.elan/bin/lake build",
+  "remoteEnv": { "PATH": "${containerEnv:PATH}:/home/vscode/.elan/bin" },
+  "customizations": {
+    "vscode": { "extensions": ["leanprover.lean4"] }
+  }
+}

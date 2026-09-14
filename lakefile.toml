@@ -1,0 +1,17 @@
+name = "boardman_conjecture"
+version = "0.1.0"
+defaultTargets = ["BoardmanConjecture"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.33.1"
+
+[[lean_lib]]
+name = "BoardmanConjecture"
